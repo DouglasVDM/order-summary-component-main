@@ -29,7 +29,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   .home {
-    background: var(--paleBlue);
+    // background: var(--paleBlue);
     border-radius: 15px;
   }
 
@@ -37,14 +37,29 @@ export const GlobalStyle = createGlobalStyle`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background: var(--paleBlue);
+    width: 80%;
+    margin: auto;
+    background: var(--veryPaleBlue);
     border-radius: 15px;
   }
 
+  .content p {
+    opacity:0.6;
+  }
+  
+  .content a {
+    font-weight: var(--fontMed);
+  }
+
   .cancel {
+    font-weight: var(--fontMed);
     text-decoration: none;
     color: black;
     margin: 20px auto;
+  }
+  
+  a {
+    opacitiy: 0.1;
   }
 
   @media screen and (max-width: 1440px)

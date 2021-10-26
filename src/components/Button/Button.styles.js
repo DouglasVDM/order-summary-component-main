@@ -9,6 +9,7 @@ export const Wrapper = styled.button`
   border-radius: 15px;
   color: var(--paleBlue);
   border: 0;
+  box-shadow: 15px 15px 50px var(--desaturatedBlue);
   font-size: 16px;
   font-weight: var(--fontMed);
   margin: 20px auto;
@@ -17,6 +18,6 @@ export const Wrapper = styled.button`
   cursor: pointer;
 
   :hover {
-    opacity: 0.8;
+    opacity: 0.7;
   }
 `;
