@@ -13,10 +13,10 @@ const Home = () => {
       <HeroImage image={image} />
 
       <h2>Order Summary</h2>
-      <p>  Order Summary
-
+      <p>
         You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!</p>
+        device anywhere you like!
+      </p>
 
       <div className="content">
         <img className='icon' src={musicIcon} alt='music-icon' />
