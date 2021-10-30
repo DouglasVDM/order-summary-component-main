@@ -22,17 +22,27 @@ export const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
+      letter-spacing: 0.2px;
 
     p {
-      font-size: 16px;
+      font-size: 1rem;
+      opacity: 0.6;
     }
   }
 
   .home {
-    // background: var(--paleBlue);
+    background: var(--veryPaleBlue);
+    box-shadow: 15px 15px 50px var(--desaturatedBlue);
     border-radius: 15px;
+    width: 90%;
+    max-width: 300px;
+    margin: 1em auto;
   }
 
+.home p {
+  width: 90%;
+  margin: 1em auto;
+}
   .content {
     display: flex;
     align-items: center;
@@ -52,16 +62,18 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   .cancel {
+    display: inline-block;
     font-weight: var(--fontMed);
     text-decoration: none;
     color: black;
     margin: 20px auto;
-  }
-  
-  a {
-    opacitiy: 0.1;
+    opacity: 0.6;
+
+    transition: transform 200ms ease-in-out;
   }
 
-  @media screen and (max-width: 1440px)
+  .cancel:hover{
+    transform: scale(1.2);
+  }
 
 `;
