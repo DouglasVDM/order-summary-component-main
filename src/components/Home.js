@@ -24,11 +24,11 @@ const Home = () => {
           <h3>Annual Plan</h3>
           <p>$59.99/year</p>
         </div>
-        <a href="#">Change</a>
+        <a href="https://douglasvandermerwe,netlify.app">Change</a>
       </div>
 
       <Button text='Proceed to Payment' />
-      <a className='cancel' href='#'>Cancel Order</a>
+      <a className='cancel' href='https://douglasvandermerwe.netlify.app'>Cancel Order</a>
     </div>
   )
 }
